@@ -1,0 +1,71 @@
+.Footer{
+	background-color: #EC7063;
+	width: 100%;
+	height: 150px;
+}
+.FooterFlexBox{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  max-width: inherit;
+  margin: auto;
+  
+}
+.FooterFlexBoxDivSocilMedia{
+  background-color: none;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+  flex-grow: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+}
+.FooterFlexBoxDivLogo{
+  background-color: none;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  flex-grow: 2;
+  flex-shrink: 1;
+}
+.FooterLogoDimentions{
+	width: 100%;
+	height: auto;
+}
+.FooterFlexBoxDivCopyright{
+  background-color: none;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  flex-grow: 4;
+  flex-shrink: 1;
+
+}
+.FooterSocialItemsCircle{
+	background: white;
+    border-radius: 200px;
+    color: #EC7063;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CopyrightText{
+	text-align: right;
+	color: white;
+	font-size: 15px;
+	line-height: 20px;
+}

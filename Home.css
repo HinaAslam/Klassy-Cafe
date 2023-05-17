@@ -1,0 +1,231 @@
+.header{
+    background-color: white;
+    padding:5px 70px 15px ;
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin: auto;
+    z-index: 90;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+.header-logo-container{
+    display:inline-block;
+    width:20%;
+    height: 90%;
+}
+.header-logo{
+    width:100%;
+    height:100%;
+}
+.header-logo-Dimentions{
+    width: 100%;
+    height: auto;
+}
+.header-content{
+    display:inline-block;
+    /*float: right;*/
+    background-color:none;
+    border-radius:30px;
+    padding:8px;
+    width: 94%;
+    margin-top: 16px;
+}
+.header-list-container{
+    display:inline-block;
+    float: right;
+}
+.header-list{
+    list-style-type: none;
+    padding:0;
+    margin-right: 56px;
+}
+.header-list-item{
+    display:inline;
+    padding:8px 25px;
+    border-radius:20px;
+    font-size:17px;
+    font-weight: 500;
+    width: auto;
+}
+.header-list-item:hover{
+   /* background-color: #EC7063;*/
+    color:#EC7063;
+}
+/*Media Queries*/
+@media(max-width: 1200px) and (min-width: 992px) {
+    /*.header{background-color: yellow;}*/
+    .header-list{margin-right: 0px;}
+    .header-list-item{padding: 9px 24px;}
+    .Section_1{width: auto !important; margin: auto;}
+    .Section_2{height: 1200px !important;}
+    .Section_2FlexBoxDiv{width: 100% !important;}
+    .Section_2ImageRightSide{width: 100% !important;}
+    .Section_2ImageRightSideDimentions{width: 80% !important;}
+    .Section_2VideoCircle{top: 245px !important; left: 315px !important;}
+    .Section_3InnerForImages { margin: auto !important;}
+    .Section_3FlexBoxImages{margin-left: 15px !important; justify-content: center; align-items: center;}
+    .Section_3FlexBoxImagesDiv1{height: 300px !important;  width: 158px !important;}
+    .Section_3FlexBoxImagesDiv2{height: 300px !important;  width: 158px !important;}
+    .Section_3FlexBoxImagesDiv3{height: 300px !important;  width: 158px !important;}
+    .Section_3FlexBoxImagesDiv4{height: 300px !important;  width: 158px !important;} 
+    .Section_3FlexBoxImagesDiv5{height: 300px !important;  width: 158px !important;}
+    .Section_4{height: 550px !important;}
+    .Section_4CardFlexBox{margin-top: 20px !important;}
+    .Section_4CardFlexBoxDiv{width: 300px !important;}
+    .Section_5ContactInfo{width: 66% !important;}
+    .Section_5TableReservation{width: 94% !important; height: 526px !important;}
+    .Section_5FormNameEmailDiv{ margin: 10px !important; width: 298px !important;  }
+    .Section_5FormNumberGuestDiv{ margin: 10px !important; width: 298px !important;  }
+    .Section_5FormDateTimeDiv{ margin: 10px !important; width: 298px !important;  }
+    .form-control{ font-size: 22px !important; }
+    .Section_6{height: 1180px !important;}
+    .Section_6LargeImagesFlexboxDiv{width: 53% !important;}
+    
+}
+@media(max-width: 991px) and (min-width: 768px) {
+    /*.header{background-color: orange;}*/
+    .header{padding:5px 20px 22px;}
+    .header-inner{justify-content: space-between;}
+    .header-logo-container{width: 17%;}
+    .header-content{width: 85%;}
+    .header-list-container{text-align: center;}
+    .header-list{margin-right: 0px; margin-left: 0px;}
+    .header-list-item{padding: 12px 15px 13px 15px}
+    .Section_1KlassyCafeTextDiv{font-size: 35px !important;}
+    .Section_1TheBestExperienceTextDiv{font-size: 15px !important;}
+    .ReservationButton{width: 175px !important;}
+    .Section_2{height: 1300px !important;}
+    .Section_2FlexBoxDiv{width: 100% !important;}
+    .Section_2ImageRightSide{width: 100% !important;}
+    .Section_2ImageRightSideDimentions{width: 100% !important;}
+    .Section_2VideoCircle{top: 245px !important; left: 278px !important;}
+    .Section_3InnerForImages { margin: auto !important;}
+    .Section_3FlexBoxImages{margin-left: 0px !important; justify-content: center; align-items: center;}
+    .Section_3FlexBoxImagesDiv1{height: 280px !important;  width: 110px !important;}
+    .Section_3FlexBoxImagesDiv2{height: 280px !important;  width: 110px !important;}
+    .Section_3FlexBoxImagesDiv3{height: 280px !important;  width: 110px !important;}
+    .Section_3FlexBoxImagesDiv4{height: 280px !important;  width: 110px !important;} 
+    .Section_3FlexBoxImagesDiv5{height: 280px !important;  width: 110px !important;}
+    .Section_4{height: 1280px !important;}
+    .Section_4CardFlexBox{margin-top: 20px !important; flex-direction: column !important;}
+    .Section_4CardFlexBoxDiv{width: 391px !important;}
+    .Section_5ContactInfo{width: 90% !important;}
+    .Section_5TableReservation{width: 90% !important; height: 526px !important;}
+    .Section_5FormNameEmailDiv{ margin: 10px !important; width: 298px !important;  }
+    .Section_5FormNumberGuestDiv{ margin: 10px !important; width: 298px !important;  }
+    .Section_5FormDateTimeDiv{ margin: 10px !important; width: 298px !important;  }
+    .form-control{ font-size: 22px !important; }
+    .Section_6{height: 1190px !important;}
+    .Section_6ThisWeek{font-size: 22px !important;}
+    .Section_6LargeImagesFlexboxDiv{width: 70% !important;}
+    .FooterFlexBox{width: 98% !important;}
+   .FooterSocialItemsCircle{ height: 45px !important; width: 45px !important; }*/
+}
+@media(max-width: 767px) and (min-width: 576px) {
+    /*.header{background-color: pink;}*/
+    .header{padding:5px 0px 22px;}
+    .header-inner{justify-content: space-between;}
+    .header-logo-container{width: 25%;}
+    .header-content{width: 85%;}
+    .header-list-container{text-align: center;}
+    .header-list{margin-right: 0px; margin-left: 0px;}
+    .header-list-item{padding: 8px 5px 12px 4px}
+    .Section_1{height: 490px !important;}
+    .Section_1AnglesCircleLeft{margin-top: 209px !important;}
+    .Section_1KlassyCafeTextDiv{font-size: 35px !important;}
+    .Section_1TheBestExperienceTextDiv{font-size: 15px !important;}
+    .ReservationButton{width: 175px !important;}
+    .Section_2{height: 1300px !important; padding: 20px !important;}
+    .Section_2FlexBoxDiv{width: 100% !important;}
+    .Section_2ImageRightSide{width: 100% !important;}
+    .Section_2ImageRightSideDimentions{width: 100% !important;}
+    .Section_2VideoCircle{top: 223px !important; left: 249px !important;}
+    .Section_3{height: 988px !important;}
+    .Section_3InnerForImages { margin: auto !important;}
+    .Section_3FlexBoxImages{margin-left: 0px !important; justify-content: center; align-items: center;}
+    .Section_3FlexBoxImagesDiv1{height: 280px !important;  width: 110px !important;}
+    .Section_3FlexBoxImagesDiv2{height: 280px !important;  width: 110px !important;}
+    .Section_3FlexBoxImagesDiv3{height: 280px !important;  width: 110px !important;}
+    .Section_3FlexBoxImagesDiv4{height: 280px !important;  width: 110px !important;} 
+    .Section_3FlexBoxImagesDiv5{height: 280px !important;  width: 110px !important;}
+    .Section_4{height: 1280px !important;}
+    .Section_4CardFlexBox{margin-top: 20px !important; flex-direction: column !important;}
+    .Section_4CardFlexBoxDiv{width: 391px !important;}
+    .Section_5Inner{width: 100% !important;}
+    .Section_5ContactInfo{width: 100% !important; height: 470px !important;}
+    .Section_5TableReservation{width: 90% !important; height: 526px !important;}
+    .Section_5FormNameEmailDiv{ margin: 10px !important; width: 298px !important;  }
+    .Section_5FormNumberGuestDiv{ margin: 10px !important; width: 298px !important;  }
+    .Section_5FormDateTimeDiv{ margin: 10px !important; width: 298px !important;  }
+    .form-control{ font-size: 16px !important; }
+    .Section_6{height: 1190px !important;}
+    .Section_6ThisWeek{font-size: 22px !important;}
+    .Section_6LargeImagesFlexboxDiv{width: 90% !important;}
+    .FooterFlexBox{width: 98% !important;}
+   .FooterSocialItemsCircle{ height: 30px !important; width: 30px !important; font-size: 17px !important; margin: 7px !important;}
+   .FooterFlexBoxDivLogo{width: 80px !important;} 
+    
+}
+@media(max-width: 575px) and (min-width: 350px) {
+    /*.header{background-color: green;}*/
+    .header{padding:5px 10px 10px;}
+    .header-inner{justify-content: space-between;}
+    .header-logo-container{width: 20%;}
+    .header-content{width: 95%;}
+    .header-list-container{text-align: center;}
+    .header-list{margin-right: 0px; margin-left: 0px;}
+    .header-list-item{padding: 8px 3px 12px 2px; font-size: 10px;}
+    .Section_1{height: 720px !important;}
+    .Section_1FlexBoxDivImage{width: 100% !important; height: 325px !important;}
+    .Section_1KlassyCafeTextDiv{font-size: 30px !important;}
+    .Section_1TheBestExperienceTextDiv{font-size: 15px !important;}
+    .ReservationButton{width: 150px !important; font-size: 15px !important;}
+    .Section_1FlexBoxDivRightImage{width: 100% !important; height: 400px !important;}
+    .Section_1AnglesCircleLeft{margin-top: 209px !important; height: 35px !important; width: 35px !important; font-size: 16px !important;}
+    .Section_1AnglesCircleRight{margin-top: -33px !important; height: 35px !important; width: 35px !important; font-size: 16px !important;}
+    .Section_2{height: 1300px !important; padding: 10px !important; margin: auto !important;}
+    .Section_2FlexBoxDiv{width: 100% !important;}
+    .Section_2About_Us{font-size: 12px !important;}
+    .Section_2DeliciousMemory{font-size: 20px !important; margin-top: 0px !important;}
+    .Section_2ParagraphText{margin-top: 10px !important; margin-bottom: 10px !important; font-size: 12px !important;}
+    .Section_2ImagesFlexBox{width: 100% !important; justify-content: center !important; align-items: center !important;}
+    .Section_2ImagesFlexBoxDiv{margin: 10px !important;}
+    .Section_2ImageRightSide{width: 100% !important;}
+    .Section_2VideoCircle{top: 109px !important; left: 148px !important; height: 40px !important; width: 40px !important;
+     font-size: 15px !important;}
+    .Section_3{height: 1985px !important; padding: 40px !important;}
+    .Section_3InnerForData{margin: 11px 0px 0px !important; height: 100px !important;}
+    .Section_4{height: 1280px !important;}
+    .Section_4WeOfferTheBest{font-size: 22px !important;}
+    .Section_4CardFlexBox{margin-top: 20px !important; flex-direction: column !important;}
+    .Section_4CardFlexBoxDiv{width: 100% !important;}
+    .Section_5Inner{width: 100% !important; padding: 25px !important;}
+    .Section_5ContactUs{font-size: 10px !important;}
+    .Section_5HereWECan{font-size: 18px !important;}
+    .Section_5Paragraph{font-size: 12px !important; padding-top: 20px !important; padding-bottom: 20px !important;}
+    .Section_5InnerFlexBox{justify-content: center !important; align-items: center !important;}
+    .Section_5InnerFlexBoxDiv{width: 70% !important; margin: 17px !important;}
+    .Section_5ContactInfo{width: 100% !important; height: 470px !important; padding: 0px !important;}
+    .Section_5TableReservation{margin-top: 20px !important; width: 100% !important; height: 343px !important;}
+    .Section_5FormNameEmailDiv{ margin: 2px !important; width: 298px !important;  }
+    .Section_5FormNumberGuestDiv{ margin: 2px !important; width: 298px !important;  }
+    .Section_5FormDateTimeDiv{ margin: 2px !important; width: 298px !important;  }
+    .form-control{ font-size: 10px !important; }
+    .Section_5ReservationButton{font-size: 12px !important;}
+    .Section_6{height: 930px !important;}
+    .Section_6KlassyWeek{margin-top: 40px !important;}
+    .Section_6ThisWeek{font-size: 20px !important;}
+    .Section_6SmallImagesFlexboxDiv{margin: 8px !important;}
+    .Section_6LargeImagesFlexboxDiv{width: 100% !important; margin: 0px !important;}
+    .Section_6LargeImageInnerFlexBoxDiv{width: 80px !important;}
+    .Section_6LargeImagesHeading{font-size: 15px !important;}
+    .Section_6LargeImagesParagraph{font-size: 12px !important; margin-top: 0px !important;}
+    .Section_6PriceTag{font-size: 15px !important; height: 50px !important; width: 50px !important; padding: 10px 6px 9px 4px !important;}
+    .Footer{height: 190px !important;}
+    .FooterFlexBoxDivSocilMedia{width: 178px !important;}
+    .CopyrightText{font-size: 12px !important;}
+}
